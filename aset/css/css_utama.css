@@ -1,0 +1,202 @@
+/* import font external Linotte */
+@font-face {
+  font-family: "Linotte";
+  src: url("../font/LinotteLight.woff");
+}
+/*Sumber : https://www.freefonts.io/linotte-font-free-download/ */
+/* Lisensi : Free untuk personal use */
+* {
+  box-sizing: border-box;
+}
+/* bagian body */
+body {
+  font-family: "Linotte";
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+main {
+  padding: 20px;
+}
+/* bagian header */
+header {
+  display: inline;
+}
+/* teks */
+h2 {
+  color: #5e58a5;
+}
+h3 {
+  color: #5e58a5;
+}
+h4 {
+  color: #5e58a5;
+}
+
+/* tombol ke website */
+.button-sarangit {
+  background: linear-gradient(to bottom, #7476cb 5%, #5e58a5 100%);
+  background-color: #7476cb;
+  border-radius: 9px;
+  border: 1px solid #7476cb;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+.button-sarangit:hover {
+  background: linear-gradient(to bottom, #5e58a5 5%, #7476cb 100%);
+  background-color: #5e58a5;
+}
+.button-sarangit:active {
+  position: relative;
+  top: 1px;
+}
+
+/* teks navigasi */
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+nav a:hover {
+  font-weight: bold;
+}
+
+/* align header */
+.profile header {
+  text-align: center;
+}
+
+/* footer */
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #5e58a5;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* gambar isi */
+.gambar-article {
+  width: 500px;
+  max-height: 300px;
+  object-fit: contain;
+  object-position: left;
+}
+
+/* bagian tim */
+.team img {
+  width: 100%;
+}
+.team table{
+    padding: 10%;
+}
+.team h3 {
+    padding-left: 10%;
+}
+.team h2 {
+    padding-left: 10%;
+}
+.team p {
+    padding-left: 10%;
+}
+
+/* bagian tentang */
+.tentang {
+    padding-bottom: 10%
+}
+
+/* bagian card & shadow */
+.card {
+  box-shadow: 0 4px 8px 0 grey;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* jumbotron */
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #7476cb;
+  text-align: center;
+  color: white;
+}
+
+/* bagian navigasi halaman */
+nav {
+  background-color: #5e58a5;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+/* bagian konten */
+#content {
+  float: left;
+  width: 70%;
+}
+
+/* bagian aside */
+aside {
+  float: right;
+  width: 30%;
+  padding-left: 20px;
+}
+
+/* bagian main */
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+/* media untuk responsibilitas halaman */
+@media screen and (max-width: 1000px) {
+  #content,
+  .gambar-article {
+    width: 100%;
+    padding: 0;
+  }
+  aside {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #content,
+  .gambar-article {
+    width: 100%;
+    padding: 0;
+  }
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  #content,
+  .gambar-article {
+    width: 100%;
+    padding: 0;
+  }
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
